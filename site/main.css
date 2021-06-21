@@ -1,7 +1,9 @@
 body {
-  background-image: url(http://braccousa.com/wp-content/uploads/2013/07/Dark-wooden-website-background.jpg);
+  background-image: url("Avatarmap.jpg");
   background-size: cover;
+  background-color: rgb(224, 194, 157);
 }
+
 .noSelect {
   user-select: none;
   -webkit-user-select: none;
