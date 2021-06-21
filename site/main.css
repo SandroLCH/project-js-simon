@@ -1,5 +1,4 @@
 body {
-  background-color: rgb(224, 194, 157);
   background-image: url("Avatarmap.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,7 +15,7 @@ body {
 	width:440px;
 	height:440px;
 	margin:0 auto;
-  margin-top: 50px;
+  margin-top: 125px;
   border: solid 1px black;
   border-radius: 50%;
   background-color: grey;
@@ -128,32 +127,6 @@ body {
   font-weight: bold;
   text-align: center;
 }
-#strictBox {
-  vertical-align: top;
-  display: inline-block;
-  height: 50px;
-  width: 50.4px;
-}
-#strictButton {
-  border: solid 3px black;
-  border-radius: 50%;
-  height: 50%;
-  width: 25px;
-  margin: 0px 12.5px 0px 12.5px;
-  background: yellow;
-  color: black;
-  font-size: 17px;
-  line-height: 20px;
-  text-align: center;
-}
-#strictText {
-  height: 30%;
-  margin: 4px 6px 0px 6px;
-  font-size: 10px;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
 #onText {
   vertical-align: top;
   display: inline-block;
@@ -179,16 +152,14 @@ body {
   background: blue;
   vertical-align: top;
   display: inline-block;
-  border-radius: 15%;
   margin: 1px 2.8px 0px 1px;
   height: 10px;
   width: 12px;
 }
 #buttonOff {
-  background: blue;
+  background: red;
   vertical-align: top;
   display: inline-block;
-  border-radius: 15%;
   margin: 1px 0px 0px 0px;
   height: 10px;
   width: 12px;
