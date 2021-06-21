@@ -1,7 +1,8 @@
 body {
+  background-color: rgb(224, 194, 157);
   background-image: url("Avatarmap.jpg");
   background-size: cover;
-  background-color: rgb(224, 194, 157);
+  background-repeat: no-repeat;
 }
 
 .noSelect {
