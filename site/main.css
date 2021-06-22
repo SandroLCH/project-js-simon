@@ -29,8 +29,8 @@ z-index:1;
 .earthnation{
   position: relative;
   z-index: 1;
-  left: 25px;
-  bottom: 90px;
+  left: 30px;
+  bottom: 130px;
   width: 130px;
   height: 130px;
 }
@@ -81,7 +81,7 @@ z-index:1;
 #buttonRed {
 	top:0;
 	right:0;
-	background-color:rgb(153, 15, 15);
+	background-color:rgb(209, 42, 42);
 	border-radius:0 0% 0 0 ;
 }
 #buttonYel {
