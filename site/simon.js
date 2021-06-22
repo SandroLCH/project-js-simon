@@ -86,7 +86,7 @@ $("div[id*='button']").on("click", function() {
       }
       if (!matchingArrays) {
         $("#displayText").html("!!");
-        $("#soundbuttonWrong").get(0).play();
+        $("#soundbuttonWrong1").get(0).play();
         userArray = [];
         memoryArrayCounter = 0;
         userArrayCounter = 0;
