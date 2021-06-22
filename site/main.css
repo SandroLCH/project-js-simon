@@ -3,7 +3,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.aang{
+border-radius: 50%; 
+width:200px;
+height:200px;
+z-index:1;
+}
 .waternation{
   position: relative;
   z-index: 1;
@@ -70,6 +75,7 @@ body {
 	left:0;
 	background-color:rgba(69, 129, 69, 0.815);
 	border-radius:0% 0 0 0;
+  
 }
 #buttonRed {
 	top:0;
@@ -91,7 +97,7 @@ body {
 }
 #center {
   position:absolute;
-  background-color:rgb(221, 204, 159);
+  background-color:rgba(221, 205, 159, 0);
   border: 20px solid rgb(201, 173, 121);
 	width:200px;
 	height:200px;
