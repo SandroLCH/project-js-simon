@@ -169,7 +169,7 @@ body {
   border-radius: 50%;
   height: 50%;
   margin: 0px 12.7px 0px 12.7px;
-  background: white;
+  background: red;
   font-size: 20px;
   line-height: 17px;
   text-align: center;
@@ -245,4 +245,7 @@ body {
   font-weight: bold;
   position: relative;
   z-index: 2;
+}
+.avatarintro{
+  display: none;
 }
