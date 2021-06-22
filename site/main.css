@@ -148,7 +148,7 @@ body {
 }
 #buttonOn {
   visibility: hidden;
-  background: blue;
+  background: green;
   vertical-align: top;
   display: inline-block;
   margin: 1px 2.8px 0px 1px;
@@ -162,6 +162,9 @@ body {
   margin: 1px 0px 0px 0px;
   height: 10px;
   width: 12px;
+  position: relative;
+  left: 15px;
+  bottom: 20px;
 }
 #offText {
   vertical-align: top;
