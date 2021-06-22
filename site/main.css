@@ -23,7 +23,7 @@ body {
 .earthnation{
   position: relative;
   z-index: 1;
-  left: 10px;
+  left: 25px;
   bottom: 100px;
   width: 130px;
   height: 130px;
@@ -31,9 +31,10 @@ body {
 .airnomads{
   position: relative;
   z-index: 1;
-  left: 40px;
+  right: 40px;
   width: 130px;
   height: 130px;
+  top: 290px;
 }
 .noSelect {
   user-select: none;
