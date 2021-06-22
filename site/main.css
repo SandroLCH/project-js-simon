@@ -1,9 +1,30 @@
 body {
-  background-image: url("Avatarmap.jpg");
+  background-image: url("Avatarmapedit.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.waternation{
+  position: relative;
+  z-index: 1;
+  left: 30px;
+
+}
+.firenation{
+  position: relative;
+  z-index: 1;
+  left: 20px;
+}
+.earthnation{
+  position: relative;
+  z-index: 1;
+  left: 10px;
+}
+.airnomads{
+  position: relative;
+  z-index: 1;
+  left: 40px;
+}
 .noSelect {
   user-select: none;
   -webkit-user-select: none;

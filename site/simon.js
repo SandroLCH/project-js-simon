@@ -51,22 +51,6 @@ $("#powerSwitch").on("click", function() {
   }
 });
 
-//Visual changes when clicking the strict button
-$("#strictButton").on("click", function() {
-  if (power == "on" && running == false) {
-    if (strict == "off") {
-      $("#strictButton").css("background", "green");
-      $("#strictButton").addClass("fa fa-check");
-      strict = "on";
-    }
-    else if (strict == "on") {
-      $("#strictButton").css("background", "yellow");
-      $("#strictButton").removeClass("fa fa-check");
-      strict = "off";
-    }
-  }
-});
-
 //Effects when clicking the start button
 $("#startButton").on("click", function() {
   if (power == "on") {
