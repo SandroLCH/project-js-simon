@@ -4,10 +4,13 @@ body {
   background-repeat: no-repeat;
 }
 .aang{
-border-radius: 50%; 
-width:200px;
-height:200px;
-z-index:1;
+  border-radius: 50%; 
+  width:190px;
+  height:190px;
+  position: relative;
+  right: 8px;
+  bottom: 8px;
+  z-index:1;
 }
 .waternation{
   position: relative;
@@ -30,7 +33,7 @@ z-index:1;
   position: relative;
   z-index: 1;
   left: 30px;
-  bottom: 130px;
+  bottom: 125px;
   width: 130px;
   height: 130px;
 }
@@ -76,25 +79,28 @@ z-index:1;
 	left:0;
 	background-color:rgba(69, 129, 69, 0.815);
 	border-radius:0% 0 0 0;
-  
+  z-index: 0;
 }
 #buttonRed {
 	top:0;
 	right:0;
 	background-color:rgb(209, 42, 42);
 	border-radius:0 0% 0 0 ;
+  z-index: 0;
 }
 #buttonYel {
 	bottom:0;
 	left:0;
 	background-color:rgb(199, 202, 34);
 	border-radius:0 0 0 0%;
+  z-index: 0;
 }
 #buttonBlu {
 	bottom:0;
 	right:0;
 	background-color:rgb(31, 190, 238);
 	border-radius:0 0 0% 0 ;
+  z-index: 0;
 }
 #center {
   position:absolute;
@@ -113,12 +119,16 @@ z-index:1;
   text-align: center;
   font-size: 40px;
   color: black;
+  position: relative;
+  z-index: 2;
 }
 #countBox {
   vertical-align: top;
   display: inline-block;
   height: 50px;
   width: 50.3px;
+  position: relative;
+  z-index: 2;
 }
 #countDisplay {
   border: solid 3px black;
@@ -129,6 +139,8 @@ z-index:1;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 #countText {
   height: 30%;
@@ -137,6 +149,8 @@ z-index:1;
   color: black;
   font-weight: bold;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 #displayText {
   opacity: 0.3;
@@ -146,6 +160,8 @@ z-index:1;
   display: inline-block;
   height: 50px;
   width: 50.4px;
+  position: relative;
+  z-index: 2;
 }
 #startButton {
   border: solid 3px black;
@@ -156,6 +172,8 @@ z-index:1;
   font-size: 20px;
   line-height: 17px;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 #startText {
   height: 30%;
@@ -164,6 +182,8 @@ z-index:1;
   color: black;
   font-weight: bold;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 #onText {
   vertical-align: top;
@@ -175,6 +195,8 @@ z-index:1;
   color: black;
   font-weight: bold;
   text-align: right;
+  position: relative;
+  z-index: 2;
 }
 #powerSwitch {
   background: grey;
@@ -184,6 +206,8 @@ z-index:1;
   margin-top: 5px;
   height: 15px;
   width: 30px;
+  position: relative;
+  z-index: 2;
 }
 #buttonOn {
   visibility: hidden;
@@ -193,6 +217,8 @@ z-index:1;
   margin: 1px 2.8px 0px 1px;
   height: 10px;
   width: 12px;
+  position: relative;
+  z-index: 2;
 }
 #buttonOff {
   background: red;
@@ -204,6 +230,8 @@ z-index:1;
   position: relative;
   left: 15px;
   bottom: 20px;
+  position: relative;
+  z-index: 2;
 }
 #offText {
   vertical-align: top;
@@ -214,4 +242,6 @@ z-index:1;
   font-size: 10px;
   color: black;
   font-weight: bold;
+  position: relative;
+  z-index: 2;
 }
