@@ -16,7 +16,8 @@ body {
 .firenation{
   position: relative;
   z-index: 1;
-  left: 20px;
+  left: 15px;
+  top: 30px;
   width: 130px;
   height: 130px;
 }
@@ -24,17 +25,17 @@ body {
   position: relative;
   z-index: 1;
   left: 25px;
-  bottom: 100px;
+  bottom: 90px;
   width: 130px;
   height: 130px;
 }
 .airnomads{
   position: relative;
   z-index: 1;
-  right: 40px;
+  right: 100px;
   width: 130px;
   height: 130px;
-  top: 290px;
+  top: 280px;
 }
 .noSelect {
   user-select: none;
@@ -74,7 +75,7 @@ body {
 #buttonRed {
 	top:0;
 	right:0;
-	background-color:rgb(153, 15, 15);
+	background-color:rgb(196, 33, 33);
 	border-radius:0 0% 0 0 ;
 }
 #buttonYel {
