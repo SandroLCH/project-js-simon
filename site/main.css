@@ -80,7 +80,7 @@ body {
 }
 #center {
   position:absolute;
-  background-color:white;
+  background-color:rgb(221, 204, 159);
   border: 20px solid rgb(201, 173, 121);
 	width:200px;
 	height:200px;
