@@ -9,7 +9,7 @@ body {
   height:190px;
   position: relative;
   right: 8px;
-  bottom: 8px;
+  bottom: 7px;
   z-index:1;
 }
 .waternation{
@@ -120,6 +120,7 @@ body {
   font-size: 40px;
   color: black;
   position: relative;
+  bottom: 20px;
   z-index: 2;
 }
 #countBox {
@@ -135,7 +136,7 @@ body {
   border-radius: 20%;
   height: 50%;
   margin: 0px 6px 0px 6px;
-  background: red;
+  background: white;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
@@ -168,7 +169,7 @@ body {
   border-radius: 50%;
   height: 50%;
   margin: 0px 12.7px 0px 12.7px;
-  background: red;
+  background: white;
   font-size: 20px;
   line-height: 17px;
   text-align: center;
