@@ -7,23 +7,33 @@ body {
 .waternation{
   position: relative;
   z-index: 1;
-  left: 30px;
+  left: 280px;
+  top: 290px;
+  width: 130px;
+  height: 130px;
 
 }
 .firenation{
   position: relative;
   z-index: 1;
   left: 20px;
+  width: 130px;
+  height: 130px;
 }
 .earthnation{
   position: relative;
   z-index: 1;
   left: 10px;
+  bottom: 100px;
+  width: 130px;
+  height: 130px;
 }
 .airnomads{
   position: relative;
   z-index: 1;
   left: 40px;
+  width: 130px;
+  height: 130px;
 }
 .noSelect {
   user-select: none;
@@ -69,13 +79,13 @@ body {
 #buttonYel {
 	bottom:0;
 	left:0;
-	background-color:rgb(126, 190, 187);
+	background-color:rgb(199, 202, 34);
 	border-radius:0 0 0 0%;
 }
 #buttonBlu {
 	bottom:0;
 	right:0;
-	background-color:rgb(65, 65, 187);
+	background-color:rgb(31, 190, 238);
 	border-radius:0 0 0% 0 ;
 }
 #center {
