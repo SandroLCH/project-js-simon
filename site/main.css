@@ -16,8 +16,8 @@ body {
 	height:440px;
 	margin:0 auto;
   margin-top: 125px;
-  border: solid 1px black;
-  background-color: grey;
+  border: solid 1px rgb(223, 184, 132);
+  background-color: rgb(190, 162, 108);
 }
 
 .fourButton {
@@ -36,31 +36,31 @@ body {
 #buttonGre {
 	top:0;
 	left:0;
-	background-color:green;
+	background-color:rgba(69, 129, 69, 0.815);
 	border-radius:0% 0 0 0;
 }
 #buttonRed {
 	top:0;
 	right:0;
-	background-color:red;
+	background-color:rgb(153, 15, 15);
 	border-radius:0 0% 0 0 ;
 }
 #buttonYel {
 	bottom:0;
 	left:0;
-	background-color:yellow;
+	background-color:rgb(126, 190, 187);
 	border-radius:0 0 0 0%;
 }
 #buttonBlu {
 	bottom:0;
 	right:0;
-	background-color:blue;
+	background-color:rgb(65, 65, 187);
 	border-radius:0 0 0% 0 ;
 }
 #center {
   position:absolute;
   background-color:white;
-  border: 20px solid grey;
+  border: 20px solid rgb(201, 173, 121);
 	width:200px;
 	height:200px;
 	top:120px;
